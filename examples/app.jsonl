@@ -1,5 +1,31 @@
 {"timestamp":"2026-06-20T09:00:00+08:00","level":"info","message":"server started","service":"api","user":"system"}
+{"timestamp":"2026-06-20T09:01:10+08:00","level":"debug","message":"worker heartbeat received","service":"worker","user":"system"}
+{"timestamp":"2026-06-20T09:02:05+08:00","level":"info","message":"user login succeeded","service":"api","user":"alice"}
 {"timestamp":"2026-06-20T09:03:12+08:00","level":"warn","message":"request took 850ms","service":"api","user":"alice"}
-{bad json line for diagnostics}
 {"timestamp":"2026-06-20T09:04:10+08:00","level":"error","message":"database timeout","service":"db","user":"bob"}
-{"timestamp":"2026-06-20T10:00:00+08:00","level":"fatal","message":"service unavailable","service":"api","user":"system"}
+{"timestamp":"2026-06-20T09:05:33+08:00","level":"warn","message":"retrying upstream request","service":"api","user":"bob"}
+{"timestamp":"2026-06-20T09:06:18+08:00","level":"info","message":"cache warmed","service":"cache","user":"carol"}
+{"timestamp":"2026-06-20T09:07:44+08:00","level":"error","message":"token validation failed","service":"auth","user":"bob"}
+{"timestamp":"2026-06-20T09:08:02+08:00","level":"fatal","message":"primary api instance unavailable","service":"api","user":"system"}
+{"timestamp":"2026-06-20T09:09:25+08:00","level":"warn","message":"background job queue is growing","service":"worker","user":"dave"}
+{"timestamp":"2026-06-20T09:10:41+08:00","level":"info","message":"user profile updated","service":"api","user":"bob"}
+{"timestamp":"2026-06-20T09:11:17+08:00","level":"debug","message":"feature flag evaluated","service":"worker","user":"alice"}
+{bad json line for diagnostics}
+{"timestamp":"2026-06-20T09:12:56+08:00","level":"warn","message":"slow database query detected","service":"db","user":"bob"}
+{"timestamp":"2026-06-20T09:13:09+08:00","level":"error","message":"database connection reset","service":"db","user":"carol"}
+{"timestamp":"2026-06-20T09:14:31+08:00","level":"info","message":"search request completed","service":"api","user":"alice"}
+{"timestamp":"2026-06-20T09:15:47+08:00","level":"warn","message":"cache miss rate above threshold","service":"cache","user":"system"}
+{"timestamp":"2026-06-20T09:16:22+08:00","level":"error","message":"payment provider timeout","service":"payment","user":"bob"}
+{"timestamp":"2026-06-20T09:17:03+08:00","level":"fatal","message":"api circuit breaker opened","service":"api","user":"bob"}
+{"timestamp":"2026-06-20T09:18:28+08:00","level":"info","message":"audit event persisted","service":"api","user":"dave"}
+{"timestamp":"2026-06-20T09:19:49+08:00","level":"debug","message":"batch worker checkpoint saved","service":"worker","user":"carol"}
+{"timestamp":"2026-06-20T09:20:16+08:00","level":"warn","message":"auth latency above baseline","service":"auth","user":"bob"}
+{"timestamp":"2026-06-20T09:21:32+08:00","level":"error","message":"replica database lag exceeded","service":"db","user":"system"}
+{"timestamp":"2026-06-20T09:22:58+08:00","level":"info","message":"cache entry refreshed","service":"cache","user":"alice"}
+{"timestamp":"2026-06-20T09:23:40+08:00","level":"warn","message":"api rate limit nearly reached","service":"api","user":"dave"}
+{"timestamp":"2026-06-20T09:24:05+08:00","level":"error","message":"database write failed","service":"db","user":"bob"}
+{"timestamp":"2026-06-20T09:25:13+08:00","level":"info","message":"recommendation request completed","service":"api","user":"carol"}
+{"timestamp":"2026-06-20T09:26:39+08:00","level":"warn","message":"password reset attempts increasing","service":"auth","user":"alice"}
+{"timestamp":"2026-06-20T09:27:51+08:00","level":"fatal","message":"worker pool exhausted","service":"worker","user":"system"}
+{"timestamp":"2026-06-20T09:28:24+08:00","level":"error","message":"payment reconciliation failed","service":"payment","user":"dave"}
+{"timestamp":"2026-06-20T09:29:00+08:00","level":"info","message":"server health check passed","service":"api","user":"system"}

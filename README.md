@@ -150,6 +150,7 @@ src/
 - `examples/app.log`
 - `examples/app.jsonl`
 - `examples/app.csv`
+- `examples/real_server.log`：公开项目中的真实服务日志样例，用于展示真实日志统计。
 
 ## Rust 特性体现
 
@@ -172,5 +173,4 @@ cargo clippy -- -D warnings
 ```
 
 当前项目已通过上述检查。
-
 
