@@ -1,0 +1,5 @@
+timestamp,level,message,service,user
+2026-06-20 09:00:00,info,server started,api,system
+2026-06-20 09:03:12,warn,request took 850ms,api,alice
+2026-06-20 09:04:10,error,database timeout,db,bob
+2026-06-20 10:00:00,fatal,service unavailable,api,system

@@ -1,0 +1,5 @@
+{"timestamp":"2026-06-20T09:00:00+08:00","level":"info","message":"server started","service":"api","user":"system"}
+{"timestamp":"2026-06-20T09:03:12+08:00","level":"warn","message":"request took 850ms","service":"api","user":"alice"}
+{bad json line for diagnostics}
+{"timestamp":"2026-06-20T09:04:10+08:00","level":"error","message":"database timeout","service":"db","user":"bob"}
+{"timestamp":"2026-06-20T10:00:00+08:00","level":"fatal","message":"service unavailable","service":"api","user":"system"}
